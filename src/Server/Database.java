@@ -1,5 +1,5 @@
 
-package miniproject;
+package Server;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
  * @author anuj
  */
 
-//Singleton class for database connection ..........................
+//Singleton class for database connection ........................
 public class Database
 {
         private static Connection con = null;

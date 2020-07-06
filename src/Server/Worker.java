@@ -1,5 +1,5 @@
 
-package miniproject;
+package Server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.sql.*;
 /**
  *
- * @author anuj
+ * @author nikita
  */
 
 

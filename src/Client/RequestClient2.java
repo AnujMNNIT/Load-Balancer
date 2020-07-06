@@ -1,6 +1,7 @@
 
-package miniproject;
+package Client;
 
+import Client.RequestClient;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -16,7 +17,7 @@ import org.json.JSONObject;
 
 /**
  *
- * @author anuj
+ * @author abdul
  */
 class RequestClient2 implements Runnable{
     private Socket loadBalancerSocket;

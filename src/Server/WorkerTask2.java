@@ -1,5 +1,5 @@
 
-package miniproject;
+package Server;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -11,9 +11,10 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 /**
  *
- * @author anuj
+ * @author nikita
  */
 public class WorkerTask2 implements Runnable
 {

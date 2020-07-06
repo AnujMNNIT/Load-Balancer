@@ -1,5 +1,5 @@
 
-package miniproject;
+package Load_Balancer;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,7 +17,7 @@ class WorkerLoads {
     BufferedReader workerFile;
     WorkerLoads(int workers_size) throws FileNotFoundException, IOException {
         this.workerFile = new BufferedReader(new FileReader(new File("src/Dependency/worker_list.txt")));
-        // Initialize loads of all workers to 0.
+        // Initialize loads of all workers to 0
         for (int i = 0; i < workers_size; i++)
             workerLoads.add(0);
            // Populate worker list from worker_list.txt.

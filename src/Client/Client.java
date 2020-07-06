@@ -1,11 +1,11 @@
 
-package miniproject;
+package Client;
 
 import java.net.Socket;
 
 /**
  *
- * @author anuj
+ * @author abdul
  */
 public class Client {
 

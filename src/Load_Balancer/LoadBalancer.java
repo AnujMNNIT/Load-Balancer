@@ -1,5 +1,5 @@
 
-package miniproject;
+package Load_Balancer;
 /**
  *
  * @author anuj
@@ -39,7 +39,7 @@ public class LoadBalancer {
                 }
                 else if (schedAlgo.equals("LC")) {
                     // When Least Connections selected, select Worker with least active connections/requests, and
-                    // increment its load.
+                    // increment its load
                     currentWorker = workerLoads.getMinLoadServer();
                     int currLoad = workerLoads.getLoad(currentWorker);
                     System.out.println("Selected worker " + currentWorker + " with load: " + currLoad + ".");

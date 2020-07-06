@@ -1,5 +1,5 @@
 
-package miniproject;
+package Load_Balancer;
 /**
  *
  * @author anuj
@@ -25,7 +25,7 @@ public class WorkerInfo
     }
     int getCapacity()
     {
-        //System.out.println(capacity);
+       
         return capacity;
     }
 }

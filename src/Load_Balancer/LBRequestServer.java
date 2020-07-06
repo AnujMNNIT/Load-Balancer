@@ -1,5 +1,5 @@
 
-package miniproject;
+package Load_Balancer;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -13,7 +13,6 @@ import java.nio.charset.StandardCharsets;
  *
  * @author anuj
  */
-
 
 public class LBRequestServer implements Runnable{
     private Socket clientSocket, workerSocket;

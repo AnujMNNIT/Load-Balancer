@@ -1,5 +1,5 @@
 
-package miniproject;
+package Server;
 
 import java.io.*;
 import java.net.Socket;
@@ -15,7 +15,7 @@ import org.json.JSONObject;
 
 /**
  *
- * @author anuj
+ * @author nikita
  */
 public class WorkerTask implements Runnable {
     // Table column names.

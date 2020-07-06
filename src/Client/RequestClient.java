@@ -1,5 +1,5 @@
 
-package miniproject;
+package Client;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,12 +12,11 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.json.JSONException;
-import org.json.JSONObject;
+
 
 /**
  *
- * @author anuj
+ * @author abdul
  */
 class RequestClient implements Runnable{
     private Socket loadBalancerSocket;
@@ -48,7 +47,6 @@ class RequestClient implements Runnable{
          
         try {
             lbWriter.write(Integer.toString(rand)+ "\n");
-           //  System.out.println("Hello");
         } catch (IOException ex) {
             Logger.getLogger(RequestClient.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -60,7 +58,6 @@ class RequestClient implements Runnable{
         String answer = null;
         try {
             answer = lbReader.readLine();
-           //  System.out.println("Hello");
         } catch (IOException ex) {
             Logger.getLogger(RequestClient.class.getName()).log(Level.SEVERE, null, ex);
         }

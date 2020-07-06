@@ -1,5 +1,5 @@
 
-package miniproject;
+package Server;
 
 import java.math.BigInteger;
 import java.util.Random;
@@ -23,11 +23,9 @@ public class Primetest {
         BigInteger ans=one;
         for(BigInteger i=three;i.compareTo(num)<=0;i=i.add(one))
         {
-            //System.out.println(i);
             if(isprime(i)==true)
             {
                 ans=ans.add(one);
-               //System.out.println(i.toString());
             }
         }
         return ans;
