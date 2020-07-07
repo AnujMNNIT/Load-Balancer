@@ -68,8 +68,8 @@ public class LoadBalancer {
     public static void main(String args[])
     {
         // args[0] has the scheduling algorithm parameter(RR and LC, for Round-Robin and Least-Connections respectively).
-      //  String schedAlgo = args[0];
-        String schedAlgo="HR";
+        String schedAlgo = args[0];
+        //String schedAlgo="HR";
         startLoadBalancer(schedAlgo);
     }
 }

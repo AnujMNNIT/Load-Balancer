@@ -20,7 +20,7 @@ import org.json.JSONObject;
  * @author abdul
  */
 class RequestClient2 implements Runnable{
-    private Socket loadBalancerSocket;
+    private final Socket loadBalancerSocket;
     RequestClient2(Socket loadBalancerSocket){
         this.loadBalancerSocket = loadBalancerSocket;
     }

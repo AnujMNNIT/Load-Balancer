@@ -3,18 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/WorkerInfo.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/Client.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/LBRequestServer.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/RequestClient.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/LoadBalancer.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/WorkerTask2.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/Worker.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/WorkerLoads.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/WorkerTask.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Load_Balancer/WorkerInfo.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Server/Database.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Server/WorkerTask.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Load_Balancer/WorkerLoads.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Server/Worker.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Server/WorkerTask2.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Client/Client.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Server/Primetest.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Load_Balancer/LoadBalancer.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Client/RequestClient.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Client/RequestClient2.java</file>
             <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Dependency/Worker_list.txt</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/Primetest.java</file>
-            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/miniproject/Database.java</file>
+            <file>file:/C:/Users/anuj/Documents/NetBeansProjects/TestProject/MiniProject/src/Load_Balancer/LBRequestServer.java</file>
         </group>
     </open-files>
 </project-private>

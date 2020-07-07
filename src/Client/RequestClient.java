@@ -19,13 +19,13 @@ import java.util.logging.Logger;
  * @author abdul
  */
 class RequestClient implements Runnable{
-    private Socket loadBalancerSocket;
+    private final Socket loadBalancerSocket;
     RequestClient(Socket loadBalancerSocket){
         this.loadBalancerSocket = loadBalancerSocket;
     }
     @Override
     public void run() {
-      //  System.out.println("Hello");
+     
          BufferedWriter lbWriter = null;
         try {
             lbWriter = new BufferedWriter(new OutputStreamWriter(loadBalancerSocket.getOutputStream(), StandardCharsets.UTF_8));
@@ -38,12 +38,15 @@ class RequestClient implements Runnable{
         } catch (IOException ex) {
             Logger.getLogger(RequestClient.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
          int mod=(int)Math.pow(10, new Random().nextInt(8));
          int rand = ThreadLocalRandom.current().nextInt()%mod;
          if(rand<0)
              rand=Math.abs(rand);
          if(rand<2)
              rand=1000;
+         //Get a random number greater than 2
+         //Purpose of this program to generate requests which involve high computation....
          
         try {
             lbWriter.write(Integer.toString(rand)+ "\n");
@@ -61,6 +64,7 @@ class RequestClient implements Runnable{
         } catch (IOException ex) {
             Logger.getLogger(RequestClient.class.getName()).log(Level.SEVERE, null, ex);
         }
+        //It will give number of prime numbers in the range 1 to a given random number 
          System.out.println("Number of Prime Numbers between 1 to "+Integer.toString(rand)+" is "+ answer);
        
     }
